@@ -1,0 +1,26 @@
+<div class = "row">
+    <h2> Movie List</h2>
+</div>
+
+<table class = "table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th> Title</th>
+            <th> Homepage </th>
+            <th> Language</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let movie of movies" >
+            <td> {{ movie.title }} </td>
+            <td> {{ movie.homepage }} </td>
+            <td> {{ movie.language }} </td>
+            <td>
+                <button (click) = "updateMovie(movie.id)" class = "btn btn-primary"> Update</button>
+                <button (click) = "deleteMovie(movie.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "movieDetails(movie.id)" class = "btn btn-primary" style="margin-left: 10px"> View</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

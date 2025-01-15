@@ -1,0 +1,64 @@
+<div class="row">
+    <div class="card col-md-6 offset-md-3 offset-md-3">
+        <div class="row">
+            <h3 class="text-center"> Update Movie </h3>
+            <hr />
+            <div class="card-body">
+                <form (ngSubmit)="onSubmit()">
+
+                  <div class="form-group">
+                    <label> Title</label>
+                    <input type="text" class="form-control" id="title" [(ngModel)]="movie.title"
+                           name="title">
+                  </div>
+
+                  <div class="form-group">
+                    <label> Homepage</label>
+                    <input type="url" class="form-control" id="homepage" [(ngModel)]="movie.homepage"
+                           name="homepage">
+                  </div>
+
+                  <div class="form-group">
+                    <label> spokenLanguage</label>
+                    <input type="text" class="form-control" id="spokenLanguage" [(ngModel)]="movie.language"
+                           name="spokenLanguage">
+                  </div>
+
+
+                  <div class="form-group">
+                    <label>
+                      <input type="checkbox" id="adult" [(ngModel)]="movie.adult"
+                             name="adult"> adult</label>
+                  </div>
+
+                  <div class="form-group">
+                    <label> budget</label>
+                    <input type="number" class="form-control" id="budget" [(ngModel)]="movie.budget"
+                           name="budget">
+                  </div>
+
+                  <div class="form-group">
+                    <label> Overview</label>
+                    <textarea class="form-control" id="overview" [(ngModel)]="movie.overview"
+                              name="overview" rows="4" cols="50"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label> Runtime</label>
+                    <input type="number" class="form-control" id="runtime" [(ngModel)]="movie.runtime"
+                           name="runtime">
+                  </div>
+
+                  <div class="form-group">
+                    <label> Release Date</label>
+                    <input type="number" class="form-control" id="releaseDate" [(ngModel)]="movie.releaseDate"
+                           name="releaseDate">
+                  </div>
+                    <br />
+                    <button class="btn btn-success" type="submit">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

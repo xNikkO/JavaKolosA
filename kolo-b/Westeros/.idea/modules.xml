@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Westeros.iml" filepath="$PROJECT_DIR$/Westeros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/westeros-diagnostics-tools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/westeros-diagnostics-tools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/westeros-updater.main.iml" filepath="$PROJECT_DIR$/.idea/modules/westeros-updater.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/161254966/westeros-updater.westeros-diagnostics-tools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/161254966/westeros-updater.westeros-diagnostics-tools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/westeros-web-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/westeros-web-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/161254966/westeros-web-api.westeros-diagnostics-tools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/161254966/westeros-web-api.westeros-diagnostics-tools.main.iml" />
+    </modules>
+  </component>
+</project>

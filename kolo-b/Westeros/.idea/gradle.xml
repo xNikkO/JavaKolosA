@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-data" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-data" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-diagnositics-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-diagnositics-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-diagnostics-tools" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-diagnostics-tools" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-movies-client" />
+        <option name="gradleJvm" value="21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-movies-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-updater" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-data" />
+            <option value="$PROJECT_DIR$/westeros-diagnostics-tools" />
+            <option value="$PROJECT_DIR$/westeros-movies-client" />
+            <option value="$PROJECT_DIR$/westeros-updater" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/westeros-web-api" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/westeros-data" />
+            <option value="$PROJECT_DIR$/westeros-diagnostics-tools" />
+            <option value="$PROJECT_DIR$/westeros-web-api" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

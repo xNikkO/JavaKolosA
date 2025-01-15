@@ -1,0 +1,8 @@
+rootProject.name = 'Westeros'
+
+include 'westeros-data'
+include 'westeros-diagnostics-service'
+include 'westeros-diagnostics-tools'
+include 'westeros-movies-client'
+include 'westeros-updater'
+include 'westeros-web-api'

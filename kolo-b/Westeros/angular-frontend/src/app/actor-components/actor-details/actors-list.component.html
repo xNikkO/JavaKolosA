@@ -1,0 +1,11 @@
+<h3> Cast</h3>
+<ul>
+  <li *ngFor = "let actor of actors" style="border: black">
+    <div>
+      <label> <b> Actor: </b></label> {{actor.actorName}}
+      <label> <b> Character: </b></label> {{actor.characterName}}
+    </div>
+  </li>
+
+</ul>
+<a [routerLink]="['add-actor']" routerLinkActive="active" class="nav-link" >Add New Actor</a>

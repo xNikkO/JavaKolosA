@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Westeros" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Westeros" />
+            <option value="$PROJECT_DIR$/Westeros/westeros-data" />
+            <option value="$PROJECT_DIR$/Westeros/westeros-diagnostics-service" />
+            <option value="$PROJECT_DIR$/Westeros/westeros-diagnostics-tools" />
+            <option value="$PROJECT_DIR$/Westeros/westeros-movies-client" />
+            <option value="$PROJECT_DIR$/Westeros/westeros-updater" />
+            <option value="$PROJECT_DIR$/Westeros/westeros-web-api" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
